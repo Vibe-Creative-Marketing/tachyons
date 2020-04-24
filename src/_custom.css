@@ -1,0 +1,38 @@
+.menu {
+    max-height: 0; /* hide menu completely when burger unchecked */
+    transition: max-height 0.5s; /* show/hide menu transition */
+  }
+
+/* when checkbox is checked, display menu (sibling element) */
+#burger:checked ~ .menu {
+    max-height: 100%;
+  }
+
+/* fill svg color from parent */  
+svg {
+    fill: currentColor;
+  }
+/* object-fit */
+.fit-cover {
+  object-fit: cover;
+}
+
+.fit-fill {
+  object-fit: fill;
+}
+
+.fit-contain {
+  object-fit: contain;
+}
+
+.fit-scale-down {
+  object-fit: 'scale-down';
+}
+/* service logo centered */
+.left-50 {
+  left: 50%;
+}
+/* electircal page left-right-middle height */
+.mt-50 {
+  margin-top: 50%;
+}
