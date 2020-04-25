@@ -36,3 +36,7 @@ svg {
 .mt-50 {
   margin-top: 50%;
 }
+/* override user stylesheet */
+video {
+  object-fit: cover;
+}

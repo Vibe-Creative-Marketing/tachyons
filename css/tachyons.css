@@ -2036,6 +2036,8 @@ svg { fill: currentColor; }
 .left-50 { left: 50%; }
 /* electircal page left-right-middle height */
 .mt-50 { margin-top: 50%; }
+/* override user stylesheet */
+video { -o-object-fit: cover; object-fit: cover; }
 /* Debugging */
 /*
 
