@@ -23,12 +23,20 @@
 .tr  { text-align: right; }
 .tc  { text-align: center; }
 .tj  { text-align: justify; }
+.tjc {
+  text-align: justify;
+  text-align-last: center;
+}
 
 @media (--breakpoint-not-small) {
   .tl-ns  { text-align: left; }
   .tr-ns  { text-align: right; }
   .tc-ns  { text-align: center; }
   .tj-ns  { text-align: justify; }
+  .tjc-ns {
+    text-align: justify;
+    text-align-last: center;
+  }
 }
 
 @media (--breakpoint-medium) {
@@ -36,6 +44,10 @@
   .tr-m  { text-align: right; }
   .tc-m  { text-align: center; }
   .tj-m  { text-align: justify; }
+  .tjc-m {
+    text-align: justify;
+    text-align-last: center;
+  }
 }
 
 @media (--breakpoint-large) {
@@ -43,5 +55,9 @@
   .tr-l  { text-align: right; }
   .tc-l  { text-align: center; }
   .tj-l  { text-align: justify; }
+  .tjc-l {
+    text-align: justify;
+    text-align-last: center;
+  }
 }
 

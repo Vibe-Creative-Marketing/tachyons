@@ -40,3 +40,12 @@ svg {
 video {
   object-fit: cover;
 }
+.partial-bg-blue {
+  background: linear-gradient(to bottom, blue 60%, transparent 40%);
+}
+.partial-bg-yellow {
+  background: linear-gradient(to bottom, yellow 60%, transparent 40%);
+}
+.partial-bg-red {
+  background: linear-gradient(to bottom, red 60%, transparent 40%);
+}

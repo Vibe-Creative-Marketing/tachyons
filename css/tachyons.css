@@ -1679,6 +1679,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .tr { text-align: right; }
 .tc { text-align: center; }
 .tj { text-align: justify; }
+.tjc { text-align: justify; -moz-text-align-last: center; text-align-last: center; }
 /*
 
    TEXT TRANSFORM
@@ -2040,6 +2041,9 @@ svg { fill: currentColor; }
 .mt-50 { margin-top: 50%; }
 /* override user stylesheet */
 video { -o-object-fit: cover; object-fit: cover; }
+.partial-bg-blue { background: linear-gradient( to bottom, blue 60%, transparent 40% ); }
+.partial-bg-yellow { background: linear-gradient( to bottom, yellow 60%, transparent 40% ); }
+.partial-bg-red { background: linear-gradient( to bottom, red 60%, transparent 40% ); }
 /* Debugging */
 /*
 
@@ -2464,6 +2468,7 @@ video { -o-object-fit: cover; object-fit: cover; }
  .tr-ns { text-align: right; }
  .tc-ns { text-align: center; }
  .tj-ns { text-align: justify; }
+ .tjc-ns { text-align: justify; -moz-text-align-last: center; text-align-last: center; }
  .ttc-ns { text-transform: capitalize; }
  .ttl-ns { text-transform: lowercase; }
  .ttu-ns { text-transform: uppercase; }
@@ -2894,6 +2899,7 @@ video { -o-object-fit: cover; object-fit: cover; }
  .tr-m { text-align: right; }
  .tc-m { text-align: center; }
  .tj-m { text-align: justify; }
+ .tjc-m { text-align: justify; -moz-text-align-last: center; text-align-last: center; }
  .ttc-m { text-transform: capitalize; }
  .ttl-m { text-transform: lowercase; }
  .ttu-m { text-transform: uppercase; }
@@ -3324,6 +3330,7 @@ video { -o-object-fit: cover; object-fit: cover; }
  .tr-l { text-align: right; }
  .tc-l { text-align: center; }
  .tj-l { text-align: justify; }
+ .tjc-l { text-align: justify; -moz-text-align-last: center; text-align-last: center; }
  .ttc-l { text-transform: capitalize; }
  .ttl-l { text-transform: lowercase; }
  .ttu-l { text-transform: uppercase; }
