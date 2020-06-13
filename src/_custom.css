@@ -57,3 +57,7 @@ video {
 .bg-vibe-blue-75 { background-color: var(--vibe-blue-75); }
 .bg-vibe-blue-50 { background-color: var(--vibe-blue-50); }
 .bg-vibe-blue-25 { background-color: var(--vibe-blue-25); }
+/* Custom Padding Value for Divider Line */
+.pt0125 {
+  padding-top: 0.125rem;
+}
