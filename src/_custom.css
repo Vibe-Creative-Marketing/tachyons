@@ -40,12 +40,20 @@ svg {
 video {
   object-fit: cover;
 }
+/* Vibe Font Backgrounds */
 .partial-bg-blue {
-  background: linear-gradient(0deg, blue 60%, transparent 40%);
+  background: linear-gradient(0deg, #3C80BD 60%, transparent 40%);
 }
 .partial-bg-yellow {
-  background: linear-gradient(0deg, yellow 60%, transparent 40%);
+  background: linear-gradient(0deg, #F2B74E 60%, transparent 40%);
 }
 .partial-bg-red {
-  background: linear-gradient(0deg, red 60%, transparent 40%);
+  background: linear-gradient(0deg, #DE5B4F 60%, transparent 40%);
 }
+/* Vibe Background Colors */
+.bg-vibe-punch { background-color: var(--vibe-punch); }
+.bg-vibe-iris { background-color: var(--vibe-iris); }
+.bg-vibe-magenta { background-color: var(--vibe-magenta); }
+.bg-vibe-blue-75 { background-color: var(--vibe-blue-75); }
+.bg-vibe-blue-50 { background-color: var(--vibe-blue-50); }
+.bg-vibe-blue-25 { background-color: var(--vibe-blue-25); }

@@ -2041,9 +2041,17 @@ svg { fill: currentColor; }
 .mt-50 { margin-top: 50%; }
 /* override user stylesheet */
 video { -o-object-fit: cover; object-fit: cover; }
-.partial-bg-blue { background: linear-gradient( 0deg, blue 60%, transparent 40% ); }
-.partial-bg-yellow { background: linear-gradient( 0deg, yellow 60%, transparent 40% ); }
-.partial-bg-red { background: linear-gradient( 0deg, red 60%, transparent 40% ); }
+/* Vibe Font Backgrounds */
+.partial-bg-blue { background: linear-gradient( 0deg, #3c80bd 60%, transparent 40% ); }
+.partial-bg-yellow { background: linear-gradient( 0deg, #f2b74e 60%, transparent 40% ); }
+.partial-bg-red { background: linear-gradient( 0deg, #de5b4f 60%, transparent 40% ); }
+/* Vibe Background Colors */
+.bg-vibe-punch { background-color: #dc475f; }
+.bg-vibe-iris { background-color: #8476b1; }
+.bg-vibe-magenta { background-color: #ca4792; }
+.bg-vibe-blue-75 { background-color: #3c80bdbd; }
+.bg-vibe-blue-50 { background-color: #3c80bd80; }
+.bg-vibe-blue-25 { background-color: #3c80bd40; }
 /* Debugging */
 /*
 
