@@ -371,7 +371,7 @@ img { max-width: 100%; }
 .b--black-025 { border-color: rgba( 0, 0, 0, .025 ); }
 .b--black-0125 { border-color: rgba( 0, 0, 0, .0125 ); }
 .b--dark-red { border-color: #e7040f; }
-.b--red { border-color: #de5b4f; }
+.b--red { border-color: rgb( 222, 91, 79 ); }
 .b--light-red { border-color: #ff725c; }
 .b--orange { border-color: #ff6300; }
 .b--gold { border-color: #ffb700; }
@@ -1107,7 +1107,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .near-white { color: #f4f4f4; }
 .white { color: #fff; }
 .dark-red { color: #e7040f; }
-.red { color: #de5b4f; }
+.red { color: rgb( 222, 91, 79 ); }
 .light-red { color: #ff725c; }
 .orange { color: #ff6300; }
 .gold { color: #ffb700; }
@@ -1165,7 +1165,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .bg-white { background-color: #fff; }
 .bg-transparent { background-color: transparent; }
 .bg-dark-red { background-color: #e7040f; }
-.bg-red { background-color: #de5b4f; }
+.bg-red { background-color: rgb( 222, 91, 79 ); }
 .bg-light-red { background-color: #ff725c; }
 .bg-orange { background-color: #ff6300; }
 .bg-gold { background-color: #ffb700; }
@@ -1319,8 +1319,8 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .hover-bg-white-10:focus { background-color: rgba( 255, 255, 255, .1 ); }
 .hover-dark-red:hover { color: #e7040f; }
 .hover-dark-red:focus { color: #e7040f; }
-.hover-red:hover { color: #de5b4f; }
-.hover-red:focus { color: #de5b4f; }
+.hover-red:hover { color: rgb( 222, 91, 79 ); }
+.hover-red:focus { color: rgb( 222, 91, 79 ); }
 .hover-light-red:hover { color: #ff725c; }
 .hover-light-red:focus { color: #ff725c; }
 .hover-orange:hover { color: #ff6300; }
@@ -1369,8 +1369,8 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .hover-washed-red:focus { color: #ffdfdf; }
 .hover-bg-dark-red:hover { background-color: #e7040f; }
 .hover-bg-dark-red:focus { background-color: #e7040f; }
-.hover-bg-red:hover { background-color: #de5b4f; }
-.hover-bg-red:focus { background-color: #de5b4f; }
+.hover-bg-red:hover { background-color: rgb( 222, 91, 79 ); }
+.hover-bg-red:focus { background-color: rgb( 222, 91, 79 ); }
 .hover-bg-light-red:hover { background-color: #ff725c; }
 .hover-bg-light-red:focus { background-color: #ff725c; }
 .hover-bg-orange:hover { background-color: #ff6300; }
@@ -2047,11 +2047,15 @@ video { -o-object-fit: cover; object-fit: cover; }
 .partial-bg-red { background: linear-gradient( 0deg, #de5b4f 60%, transparent 40% ); }
 /* Vibe Background Colors */
 .bg-vibe-punch { background-color: #dc475f; }
+.bg-vibe-punch-75 { background-color: rgb( 220, 71, 95, .75 ); }
 .bg-vibe-iris { background-color: #8476b1; }
 .bg-vibe-magenta { background-color: #ca4792; }
-.bg-vibe-blue-75 { background-color: #3c80bdbd; }
-.bg-vibe-blue-50 { background-color: #3c80bd80; }
-.bg-vibe-blue-25 { background-color: #3c80bd40; }
+.bg-vibe-blue-75 { background-color: rgb( 60, 128, 189, .75 ); }
+.bg-vibe-blue-50 { background-color: rgb( 60, 128, 189, .5 ); }
+.bg-vibe-blue-25 { background-color: rgb( 60, 128, 189, .25 ); }
+.bg-vibe-iris-50 { background-color: rgb( 132, 118, 177, .5 ); }
+.bg-red-75 { background-color: rgb( 222, 91, 79, .75 ); }
+.bg-yellow-75 { background-color: rgb( 242, 183, 78, .75 ); }
 /* Custom Padding Value for Divider Line */
 .pt0125 { padding-top: .125rem; }
 /* Image Grid */

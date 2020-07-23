@@ -52,11 +52,15 @@ video {
 }
 /* Vibe Background Colors */
 .bg-vibe-punch { background-color: var(--vibe-punch); }
+.bg-vibe-punch-75 { background-color: var(--vibe-punch-75); }
 .bg-vibe-iris { background-color: var(--vibe-iris); }
 .bg-vibe-magenta { background-color: var(--vibe-magenta); }
 .bg-vibe-blue-75 { background-color: var(--vibe-blue-75); }
 .bg-vibe-blue-50 { background-color: var(--vibe-blue-50); }
 .bg-vibe-blue-25 { background-color: var(--vibe-blue-25); }
+.bg-vibe-iris-50 { background-color: var(--vibe-iris-50); }
+.bg-red-75 { background-color: var(--red-75); }
+.bg-yellow-75 { background-color: var(--yellow-75); }
 /* Custom Padding Value for Divider Line */
 .pt0125 {
   padding-top: 0.125rem;
