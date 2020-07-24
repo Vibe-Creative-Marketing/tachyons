@@ -36,9 +36,10 @@ svg {
 .mt-50 {
   margin-top: 50%;
 }
-/* override user stylesheet */
+/* Override user stylesheet and preserve aspect ratio */
 video {
-  object-fit: cover;
+  max-width: 100%;
+  height: auto;
 }
 /* Vibe Font Backgrounds */
 .partial-bg-blue {

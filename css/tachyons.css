@@ -2039,8 +2039,8 @@ svg { fill: currentColor; }
 .left-50 { left: 50%; }
 /* electircal page left-right-middle height */
 .mt-50 { margin-top: 50%; }
-/* override user stylesheet */
-video { -o-object-fit: cover; object-fit: cover; }
+/* Override user stylesheet and preserve aspect ratio */
+video { max-width: 100%; height: auto; }
 /* Vibe Font Backgrounds */
 .partial-bg-blue { background: linear-gradient( 0deg, #3c80bd 60%, transparent 40% ); }
 .partial-bg-yellow { background: linear-gradient( 0deg, #f2b74e 60%, transparent 40% ); }
