@@ -75,12 +75,16 @@
   --washed-red:  #ffdfdf;
   --blue: #3C80BD;
   --green: rgb(96,182,69);
-  --red: #DE5B4F;
+  --red: rgb(222, 91, 79);
+  --red-75: rgb(222, 91, 79, .75);
+  --yellow-75: rgb(242, 183, 78, .75);
+  --vibe-iris-50: rgb(132, 118, 177, .5);
   --vibe-magenta: #CA4792;
   --vibe-punch: #DC475F;
+  --vibe-punch-75: rgb(220, 71, 95, .75);
   --vibe-iris: #8476B1;
-  --vibe-blue-75: #3C80BDBD;
-  --vibe-blue-50: #3C80BD80;
-  --vibe-blue-25: #3C80BD40;
+  --vibe-blue-75: rgb(60, 128, 189, .75);
+  --vibe-blue-50: rgb(60, 128, 189, .5);
+  --vibe-blue-25: rgb(60, 128, 189, .25);
 }
 
