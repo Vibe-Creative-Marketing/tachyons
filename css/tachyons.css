@@ -802,7 +802,10 @@ code, .code { font-family: Consolas, monaco, monospace; }
      3 = 3rd step in height scale
      4 = 4th step in height scale
      5 = 5th step in height scale
-
+     6 = 6th step in height scale
+     7 = 7th step in height scale
+     8 = 8th step in height scale
+     9 = 9th step in height scale
      -25   = literal value 25%
      -50   = literal value 50%
      -75   = literal value 75%
@@ -823,6 +826,10 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .h3 { height: 4rem; }
 .h4 { height: 8rem; }
 .h5 { height: 16rem; }
+.h6 { height: 32rem; }
+.h7 { height: 64rem; }
+.h8 { height: 128rem; }
+.h9 { height: 256rem; }
 /* Height Percentages - Based off of height of parent */
 .h-25 { height: 25%; }
 .h-50 { height: 50%; }
