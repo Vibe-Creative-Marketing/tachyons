@@ -51,6 +51,9 @@ video {
 .partial-bg-red {
   background: linear-gradient(0deg, #DE5B4F 60%, transparent 40%);
 }
+.partial-bg-vibe-magenta {
+  background: linear-gradient(0deg, #CA4792 60%, transparent 40%);
+}
 /* Vibe Background Colors */
 .bg-vibe-punch { background-color: var(--vibe-punch); }
 .bg-vibe-punch { background-color: var(--vibe-punch-50); }
