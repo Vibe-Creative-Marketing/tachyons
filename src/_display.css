@@ -83,6 +83,25 @@
   }
 }
 
+@media (--breakpoint-tablet) {
+  .dn-t {              display: none; }
+  .di-t {              display: inline; }
+  .db-t {              display: block; }
+  .dib-t {             display: inline-block; }
+  .dit-t {             display: inline-table; }
+  .dt-t {              display: table; }
+  .dtc-t {             display: table-cell; }
+  .dt-row-t {          display: table-row; }
+  .dt-row-group-t {    display: table-row-group; }
+  .dt-column-t {       display: table-column; }
+  .dt-column-group-t { display: table-column-group; }
+
+  .dt--fixed-t {
+    table-layout: fixed;
+    width: 100%;
+  }
+}  
+
 @media (--breakpoint-large) {
   .dn-l {              display: none; }
   .di-l {              display: inline; }
