@@ -94,3 +94,7 @@ video {
 .h26rem {
     height: 26rem;
 }
+/*Custom absolute values*/
+.top-15 {
+    top: 15%
+}
