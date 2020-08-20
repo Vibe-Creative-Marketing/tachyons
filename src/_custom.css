@@ -99,6 +99,6 @@ video {
     top: 15%
 }
 /* Custom Width */
-.w-mg {
-    width: 15rem;
+.mw-mg {
+    max-width: 15rem;
 }
