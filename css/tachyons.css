@@ -2073,6 +2073,8 @@ video { max-width: 100%; height: auto; }
 .h26rem { height: 26rem; }
 /*Custom absolute values*/
 .top-15 { top: 15%; }
+/* Custom Width */
+.w-mg { width: 15rem; }
 /* Debugging */
 /*
 

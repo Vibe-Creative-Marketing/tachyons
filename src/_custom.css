@@ -98,3 +98,7 @@ video {
 .top-15 {
     top: 15%
 }
+/* Custom Width */
+.w-mg {
+    width: 15rem;
+}
