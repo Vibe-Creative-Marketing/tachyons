@@ -2055,7 +2055,7 @@ video { max-width: 100%; height: auto; }
 .partial-bg-vibe-magenta { background: linear-gradient( 0deg, #ca4792 60%, transparent 40% ); }
 /* Vibe Background Colors */
 .bg-vibe-punch { background-color: #dc475f; }
-.bg-vibe-punch { background-color: rgb( 220, 71, 95, .50 ); }
+.bg-vibe-punch-50 { background-color: rgb( 220, 71, 95, .50 ); }
 .bg-vibe-punch-75 { background-color: rgb( 220, 71, 95, .75 ); }
 .bg-vibe-iris { background-color: #8476b1; }
 .bg-vibe-magenta { background-color: #ca4792; }

@@ -56,7 +56,7 @@ video {
 }
 /* Vibe Background Colors */
 .bg-vibe-punch { background-color: var(--vibe-punch); }
-.bg-vibe-punch { background-color: var(--vibe-punch-50); }
+.bg-vibe-punch-50 { background-color: var(--vibe-punch-50); }
 .bg-vibe-punch-75 { background-color: var(--vibe-punch-75); }
 .bg-vibe-iris { background-color: var(--vibe-iris); }
 .bg-vibe-magenta { background-color: var(--vibe-magenta); }
