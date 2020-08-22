@@ -63,10 +63,14 @@ pre {
 
 /**
  * Remove the gray background on active links in IE 10.
+ * Remove Underline
+ * Make Blue
  */
 
 a {
   background-color: transparent;
+  text-decoration: none;
+  color: (--blue);
 }
 
 /**

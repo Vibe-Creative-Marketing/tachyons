@@ -57,8 +57,10 @@ pre { font-family: monospace, monospace; /* 1 */ font-size: 1em; /* 2 */ }
    ========================================================================== */
 /**
  * Remove the gray background on active links in IE 10.
+ * Remove Underline
+ * Make Blue
  */
-a { background-color: transparent; }
+a { background-color: transparent; text-decoration: none; color: ( --blue ); }
 /**
  * 1. Remove the bottom border in Chrome 57-
  * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
