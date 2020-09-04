@@ -14,10 +14,11 @@
  *    1. External Library Includes
  *       - Normalize.css | http://normalize.css.github.io
  *    2. Tachyons Modules
- *    3. Variables
+ *    3. Critical CSS
+ *    4. Variables
  *       - Media Queries
  *       - Colors
- *    4. Debugging
+ *    5. Debugging
  *       - Debug all
  *       - Debug children
  *
@@ -26,7 +27,6 @@
 
 /* External Library Includes */
 @import './_normalize';
-
 
 /* Modules */
 @import './_box-sizing';
@@ -41,57 +41,63 @@
 @import './_border-style';
 @import './_border-widths';
 @import './_box-shadow';
-@import './_code';
 @import './_coordinates';
 @import './_clears';
-@import './_display';
-@import './_flexbox';
-@import './_floats';
 @import './_font-family';
 @import './_font-style';
 @import './_font-weight';
-@import './_forms';
-@import './_heights';
 @import './_letter-spacing';
 @import './_line-height';
 @import './_links';
 @import './_lists';
-@import './_max-widths';
-@import './_widths';
 @import './_overflow';
-@import './_position';
-@import './_opacity';
-@import './_rotations';
 @import './_skins';
-@import './_skins-pseudo';
-@import './_spacing';
-@import './_negative-margins';
-@import './_tables';
 @import './_text-decoration';
 @import './_text-align';
 @import './_text-transform';
+@import './_text-decoration';
 @import './_type-scale';
-@import './_typography';
-@import './_utilities';
-@import './_visibility';
-@import './_white-space';
-@import './_vertical-align';
 @import './_hovers';
+@import './_flexbox';
+@import './_floats';
+@import './_heights';
+@import './_opacity';
+@import './_utilities';
 @import './_z-index';
-@import './_nested';
-/* @import './_styles'; */
+@import './_max-widths';
+@import './_widths';
+@import './_position';
+
+/* Not Using
+@import './_code';
+@import './_forms';
+@import './_visibility';
+@import './_vertical-align';
 @import './_word-break';
-/* @import './_reset.css'; */
+@import './_tables';
+@import './_skins-pseudo';
+@import './_white-space';
+@import './_reset.css'; 
+@import './_tables';
+@import './_styles';
+@import './_nested';
+@import './_rotations';
+@import './_typography';
+ */
+
+/* Critical CSS */
+@import './_display';
 
 /* Variables */
 /* Importing here will allow you to override any variables in the modules */
 @import './_colors';
-@import './_media-queries';
 @import './_custom';
+@import './_media-queries';
 
 /* Debugging */
+/*
 @import './_debug-children';
 @import './_debug-grid';
-
+*/
 /* Uncomment out the line below to help debug layout issues */
 /* @import './_debug'; */
