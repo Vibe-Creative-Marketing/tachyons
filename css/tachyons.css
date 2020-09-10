@@ -235,7 +235,7 @@ input[type="tel"], input[type="text"], input[type="url"], .border-box { box-sizi
 
 */
 /* Responsive images! */
-img { max-width: 100%; }
+img { max-width: 100%; height: auto; }
 /*
 
    BACKGROUND SIZE
